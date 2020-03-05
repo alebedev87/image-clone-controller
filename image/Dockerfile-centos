@@ -1,0 +1,3 @@
+FROM registry.centos.org/centos:latest
+
+RUN yum install -y skopeo

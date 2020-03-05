@@ -1,0 +1,10 @@
+serviceaccount: image-clone-controller
+
+controller:
+  image: docker.io/alebedev87/image-clone-controller
+  imagetag: 1.0.1
+
+backupRegistry:
+    name: registry-1.docker.io
+    organization: alebedev87
+    secret: backup-registry-credentials
